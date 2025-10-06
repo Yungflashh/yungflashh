@@ -1,5 +1,5 @@
 <h1 align="center">👋 Yo! I’m Yungflashh ⚡</h1>
-<h3 align="center">Creative Full-Stack JavaScript Sorcerer 🧙 | Builder of SharpLook ✂️ & VendorSpot 🛍 | Mobile & Web Vibes Only 🚀</h3>
+<h3 align="center">Creative Full-Stack JavaScript Sorcerer 🧙  Mobile & Web Vibes Only 🚀</h3>
 
 ---
 
