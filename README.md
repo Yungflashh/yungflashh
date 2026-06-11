@@ -21,7 +21,7 @@
 
 ## About
 
-I'm a full-stack JavaScript engineer who designs, builds, and ships production-grade products — independently. I work across the entire stack, from pixel-perfect React Native UIs to scalable Node.js APIs, and I handle the full lifecycle on every project I take on.
+I'm a full-stack engineer who designs, builds, and ships production-grade products — independently. I work across the entire stack, from pixel-perfect React Native UIs to scalable Node.js APIs, and I handle the full lifecycle on every project I take on.
 
 Most of my products are built for Nigerian and African users: Naira pricing, local payment infrastructure (Paystack), Nigerian device brands, and mobile-first constraints. I don't just build for demos — I build for real people.
 
