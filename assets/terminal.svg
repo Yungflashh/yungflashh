@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Terminal: who I am, my stack, my numbers and what I'm building now">
+  <defs>
+    
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0" >
+    <stop offset="0" stop-color="#ff8c42"/>
+    <stop offset="0.5" stop-color="#ff3d81"/>
+    <stop offset="1" stop-color="#7c5cff"/>
+  </linearGradient>
+    <style>
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .scan { animation: scan 6s linear infinite; }
+      @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(400px); } }
+    </style>
+    <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.035"/></linearGradient>
+    <clipPath id="win"><rect width="1200" height="400" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#win)">
+    <rect width="1200" height="400" fill="#0c111c"/>
+    <rect width="1200" height="48" fill="rgba(255,255,255,0.035)"/>
+    <circle cx="30" cy="24" r="7" fill="#ff5f57"/><circle cx="54" cy="24" r="7" fill="#febc2e"/><circle cx="78" cy="24" r="7" fill="#28c840"/>
+    <text x="600" y="29" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8a94a8">david@lagos: ~/shipped</text>
+    <rect x="0" y="47" width="1200" height="1.5" fill="url(#g)" opacity="0.8"/>
+    
+      <clipPath id="c0"><rect x="58" y="88" height="30" width="102">
+        <animate attributeName="width" begin="0s" dur="0.90s" fill="freeze" calcMode="discrete" keyTimes="0;0.4444;0.5370;0.6296;0.7222;0.8148;0.9074;1.0000" values="0;40;50.2;60.4;70.6;80.8;91.0;101.2"/>
+      </rect></clipPath>
+      <g clip-path="url(#c0)">
+        <text x="60" y="108" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17"><tspan fill="#2dd4bf">❯</tspan><tspan fill="#eef1f7" dx="12">whoami</tspan></text>
+      </g>
+      <text x="84" y="142" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" style="white-space:pre" fill="#8a94a8"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.7667;1" dur="1.50s" begin="0s" fill="freeze"/>David Adenusi  (@Yungflashh)  full-stack engineer and founder, Lagos</text>
+      <clipPath id="c2"><rect x="58" y="156" height="30" width="173">
+        <animate attributeName="width" begin="0s" dur="2.29s" fill="freeze" calcMode="discrete" keyTimes="0;0.7440;0.7637;0.7834;0.8031;0.8228;0.8425;0.8621;0.8818;0.9015;0.9212;0.9409;0.9606;0.9803;1.0000" values="0;40;50.2;60.4;70.6;80.8;91.0;101.2;111.4;121.6;131.8;142.0;152.2;162.4;172.6"/>
+      </rect></clipPath>
+      <g clip-path="url(#c2)">
+        <text x="60" y="176" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17"><tspan fill="#2dd4bf">❯</tspan><tspan fill="#eef1f7" dx="12">cat stack.txt</tspan></text>
+      </g>
+      <text x="84" y="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" style="white-space:pre" fill="#8a94a8"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.8787;1" dur="2.89s" begin="0s" fill="freeze"/>React Native  Expo  TypeScript  Node.js  MongoDB  Postgres  Socket.IO  Paystack</text>
+      <clipPath id="c4"><rect x="58" y="224" height="30" width="408">
+        <animate attributeName="width" begin="0s" dur="4.71s" fill="freeze" calcMode="discrete" keyTimes="0;0.6557;0.6652;0.6748;0.6844;0.6939;0.7035;0.7131;0.7226;0.7322;0.7418;0.7513;0.7609;0.7705;0.7800;0.7896;0.7991;0.8087;0.8183;0.8278;0.8374;0.8470;0.8565;0.8661;0.8757;0.8852;0.8948;0.9044;0.9139;0.9235;0.9330;0.9426;0.9522;0.9617;0.9713;0.9809;0.9904;1.0000" values="0;40;50.2;60.4;70.6;80.8;91.0;101.2;111.4;121.6;131.8;142.0;152.2;162.4;172.6;182.8;193.0;203.2;213.4;223.6;233.8;244.0;254.2;264.4;274.6;284.8;295.0;305.2;315.4;325.6;335.8;346.0;356.2;366.4;376.6;386.8;397.0;407.2"/>
+      </rect></clipPath>
+      <g clip-path="url(#c4)">
+        <text x="60" y="244" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17"><tspan fill="#2dd4bf">❯</tspan><tspan fill="#eef1f7" dx="12">git log --since=&quot;1 year ago&quot; | wc -l</tspan></text>
+      </g>
+      <text x="84" y="278" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" style="white-space:pre" fill="#8a94a8"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9340;1" dur="5.30s" begin="0s" fill="freeze"/>5,210 contributions   365-day streak   best day: 170</text>
+      <clipPath id="c6"><rect x="58" y="292" height="30" width="204">
+        <animate attributeName="width" begin="0s" dur="6.22s" fill="freeze" calcMode="discrete" keyTimes="0;0.8843;0.8916;0.8988;0.9060;0.9133;0.9205;0.9277;0.9349;0.9422;0.9494;0.9566;0.9639;0.9711;0.9783;0.9855;0.9928;1.0000" values="0;40;50.2;60.4;70.6;80.8;91.0;101.2;111.4;121.6;131.8;142.0;152.2;162.4;172.6;182.8;193.0;203.2"/>
+      </rect></clipPath>
+      <g clip-path="url(#c6)">
+        <text x="60" y="312" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17"><tspan fill="#2dd4bf">❯</tspan><tspan fill="#eef1f7" dx="12">./now --building</tspan></text>
+      </g>
+      <text x="84" y="346" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" style="white-space:pre" fill="#ff8c42"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9487;1" dur="6.82s" begin="0s" fill="freeze"/>Roomie: roommates, chat, games, points. Heading to the Play Store.</text>
+    <g>
+      <text x="60" y="380" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17"><tspan fill="#2dd4bf">❯</tspan></text>
+      <rect class="caret" x="84" y="364" width="10" height="20" fill="#eef1f7"/>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9723;1" dur="7.22s" begin="0s" fill="freeze"/>
+    </g>
+    <rect class="scan" width="1200" height="40" fill="url(#scanline)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="rgba(255,255,255,0.09)"/>
+</svg>
